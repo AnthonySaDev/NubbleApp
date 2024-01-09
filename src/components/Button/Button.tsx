@@ -1,7 +1,6 @@
 import React from 'react';
 import {Text} from '../Text/Text';
 import {TouchableOpacityBox, TouchableOpacityBoxProps} from '../Box/Box';
-import {ThemeColors} from '../../theme/theme';
 import {buttonPresets} from './ButtonPresets';
 import {ActivityIndicator} from '../ActivityIndicator/ActivityIndicator';
 
@@ -23,7 +22,7 @@ export function Button({
   const buttonPreset = buttonPresets[preset][disabled ? 'disabled' : 'default'];
   return (
     <TouchableOpacityBox
-      disabled={disabled}
+      disabled={disabled || loading}
       paddingHorizontal="s20"
       height={50}
       alignItems="center"
