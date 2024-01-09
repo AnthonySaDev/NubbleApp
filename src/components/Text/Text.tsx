@@ -44,7 +44,7 @@ function getFontFamily(preset: TextVariants, bold?: boolean, italic?: boolean, s
 
 type TextVariants = 'headingLarge' | 'headingMedium' | 'headingSmall' | 'paragraphLarge' | 'paragraphMedium' | 'paragraphSmall' | 'paragraphCaption' | 'paragraphCaptionSmall';
 
-const $fontSizes: Record<TextVariants, TextStyle> = {
+export const $fontSizes: Record<TextVariants, TextStyle> = {
   headingLarge: {
     fontSize: 32,
     lineHeight: 38,
@@ -83,7 +83,7 @@ const $fontSizes: Record<TextVariants, TextStyle> = {
   },
 }
 
-const $fontFamily = {
+export const $fontFamily = {
   black: 'Satoshi-Black',
   blackItalic: 'Satoshi-BlackItalic',
   bold: 'Satoshi-Bold',
