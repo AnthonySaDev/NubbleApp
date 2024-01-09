@@ -14,7 +14,7 @@ function App(): React.JSX.Element {
         <Box paddingHorizontal="s20" gap="s10">
           <Button title="Login" loading  />
           <Button title="Primary" />
-          <Button title="Outline" preset='outline' />
+          <Button title="Outline" disabled  preset='outline' />
         </Box>
       </SafeAreaView>
     </ThemeProvider>
