@@ -11,10 +11,9 @@ function App(): React.JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <SafeAreaView>
-        <Text preset="headingLarge" bold>CoffStack</Text>
-        <Box paddingHorizontal="s20" gap="s10">
-        <Icon name='eyeOff' color='carrotSecondary'/>
-        <Icon name='chevronRight'/>
+        <Box paddingHorizontal='s24'>
+        <Text preset='headingLarge'>Olá!</Text>
+        <Text preset='paragraphLarge' >Digite seu e-mail e senha para entrar</Text>
         </Box>
       </SafeAreaView>
     </ThemeProvider>
