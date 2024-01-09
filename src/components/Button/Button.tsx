@@ -22,9 +22,9 @@ export function Button({
       borderRadius="s16"
       {...touchableOpacityBoxPros}>
       {loading ? (
-        <ActivityIndicator color={'white'} />
+        <ActivityIndicator />
       ) : (
-        <Text preset="paragraphMedium" bold style={{color: 'white'}}>
+        <Text color="primaryContrast" preset="paragraphMedium" bold >
           {title}
         </Text>
       )}
