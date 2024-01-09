@@ -12,8 +12,9 @@ function App(): React.JSX.Element {
       <SafeAreaView>
         <Text preset="headingLarge">Teste 2</Text>
         <Box paddingHorizontal="s20" gap="s10">
-          <Button title="Login" />
-          <Button title="Login" loading  backgroundColor='carrotSecondary'/>
+          <Button title="Login" loading  />
+          <Button title="Primary" />
+          <Button title="Outline" preset='outline' />
         </Box>
       </SafeAreaView>
     </ThemeProvider>
