@@ -1,20 +1,45 @@
-import React from 'react'
-import { Box } from '../Box/Box'
-import { useSafeAreaInsets } from 'react-native-safe-area-context'
-import { useAppTheme } from '../../hooks/useAppTheme'
-import { useAppSafArea } from '../../hooks/useAppSafeArea'
+import React from 'react';
+import {Box} from '../Box/Box';
+import {useAppSafArea} from '../../hooks/useAppSafeArea';
+import {Icon} from '../Icon/Icon';
+import {Text} from '../Text/Text';
+import {KeyboardAvoidingView, ScrollView, Platform} from 'react-native';
+import {ScrollViewContainer, ViewContainer} from './components/ScreenContainer';
+import {useAppTheme} from '../../hooks/useAppTheme';
 
 interface ScreenProps {
-    children: React.ReactNode
+  children: React.ReactNode;
+  canGoBack?: boolean;
+  scrollable?: boolean;
 }
 
-export default function Screen({children}: ScreenProps) {
- 
-    const {top} = useAppSafArea()
-
-    return (
-   <Box paddingHorizontal='s24' style={{paddingTop:top}}>
-    {children}
-   </Box>
-  )
+export default function Screen({
+  children,
+  canGoBack = false,
+  scrollable = false,
+}: ScreenProps) {
+  const {top, bottom} = useAppSafArea();
+  const {colors} = useAppTheme();
+  const Container = scrollable ? ScrollViewContainer : ViewContainer;
+  return (
+    <KeyboardAvoidingView
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+      <Container backgroundColor={colors.background}>
+        <Box
+          paddingBottom="s24"
+          paddingHorizontal="s24"
+          style={{paddingTop: top, paddingBottom: bottom}}>
+          {canGoBack && (
+            <Box mb="s24" flexDirection="row" alignItems="center" gap="s8">
+              <Icon name="arrowLeft" color="primary" />
+              <Text preset="paragraphMedium" semiBold>
+                Voltar
+              </Text>
+            </Box>
+          )}
+          {children}
+        </Box>
+      </Container>
+    </KeyboardAvoidingView>
+  );
 }
