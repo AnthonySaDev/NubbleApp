@@ -15,7 +15,7 @@ interface Props extends TextInputProps {
   RightComponent?: React.ReactElement;
   boxProps?: BoxProps;
 }
-export default function TextInput({
+export function TextInput({
   label,
   errorMessage,
   RightComponent,
