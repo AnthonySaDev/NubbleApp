@@ -1,5 +1,5 @@
 import React from 'react';
-import Screen from '../../../components/Screen/Screen';
+import {Screen} from '../../../components/Screen/Screen';
 import {Text} from '../../../components/Text/Text';
 import {TextInput} from '../../../components/TextInput/TextInput';
 import {Button} from '../../../components/Button/Button';
@@ -9,10 +9,17 @@ import { RootStackParamList } from '../../../routes/Routes';
 
 type ScreenProps = NativeStackScreenProps<RootStackParamList, 'SignUpScreen'>;
 
-export default function SignUpScreen(props: ScreenProps) {
+export default function SignUpScreen({navigation}: ScreenProps) {
   function submitForm() {
     //TODO: implementar
-    console.log('submit form');
+    navigation.navigate('SuccessScreen', {
+      title: 'Sua conta foi criada com sucesso!',
+      description: 'Agora é só fazer login na nossa plataforma',
+      icon: {
+        name: 'checkRound',
+        color: 'success',
+      },
+    });
   }
 
   return (

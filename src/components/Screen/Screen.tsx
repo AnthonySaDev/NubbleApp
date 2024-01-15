@@ -14,7 +14,7 @@ interface ScreenProps {
   scrollable?: boolean;
 }
 
-export default function Screen({
+export function Screen({
   children,
   canGoBack = false,
   scrollable = false,
