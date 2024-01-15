@@ -1,14 +1,20 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import {Box} from '../../../components/Box/Box';
 import {Text} from '../../../components/Text/Text';
 import {TextInput} from '../../../components/TextInput/TextInput';
-import {Icon} from '../../../components/Icon/Icon';
 import {Button} from '../../../components/Button/Button';
 import Screen from '../../../components/Screen/Screen';
 import { PasswordInput } from '../../../components/PasswordInput/PasswordInput';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { RootStackParamList } from '../../../routes/Routes';
 
-export function LoginsScreen() {
+type ScreenProps = NativeStackScreenProps<RootStackParamList, 'LoginScreen'>;
+
+export function LoginsScreen({navigation}: ScreenProps) {
+  
+  function navigateToSingUpScreen() {
+    navigation.navigate('SignUpScreen');
+  }
+  
   return (
     <Screen>
       <Text marginBottom="s8" preset="headingLarge" bold>
@@ -32,7 +38,7 @@ export function LoginsScreen() {
       </Text>
 
       <Button title="Entrar" mt="s48" />
-      <Button title="Criar uma conta" mt="s12" preset="outline" />
+      <Button title="Criar uma conta" mt="s12" preset="outline" onPress={navigateToSingUpScreen} />
     </Screen>
   );
 }

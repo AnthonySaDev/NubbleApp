@@ -8,76 +8,76 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* NubbleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NubbleAppTests.m */; };
+		0109936577944A27B93521BE /* flashOff.svg in Resources */ = {isa = PBXBuildFile; fileRef = 52188318FDDD4678A92121B9 /* flashOff.svg */; };
+		0B10A000026344EFA5374E22 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E91CDCD94244FE591562D7D /* Satoshi-MediumItalic.otf */; };
+		0BA9E17A62874ADE99CD9CBC /* check.svg in Resources */ = {isa = PBXBuildFile; fileRef = F689CA0D9DCE4D7BB47F565F /* check.svg */; };
 		0C80B921A6F3F58F76C31292 /* libPods-NubbleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-NubbleApp.a */; };
+		1002A66432F8442F87E4FECB /* ChatOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = FD434951BB504026A8FCC037 /* ChatOnIcon.tsx */; };
+		111CF25C8B9542729B4327F2 /* EyeOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = BBBB5F336C4142A693F91225 /* EyeOnIcon.tsx */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-NubbleApp-NubbleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NubbleApp-NubbleAppTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		54B6620E1BA8478890ADD817 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1DFB024B8362490F978AE919 /* Satoshi-Black.otf */; };
-		A9E29DCCFF854162A53F088A /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECA0D778F2494B798FF30854 /* Satoshi-BlackItalic.otf */; };
+		13DE480FF11E4F8B96A759A5 /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 37C28F14502A4FE3ACFA7459 /* home.svg */; };
+		20696BE59D614B479084B53C /* bell.svg in Resources */ = {isa = PBXBuildFile; fileRef = A36A2A90725946DBA220BB1C /* bell.svg */; };
+		20B52AD7ABB1450DA6675BE3 /* heart.svg in Resources */ = {isa = PBXBuildFile; fileRef = A818E9A189F340CE9AFE23D4 /* heart.svg */; };
+		237D3FA16A584D3A9CD16910 /* ArrowRightIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = D4D5A33F76BC45D4BC051225 /* ArrowRightIcon.tsx */; };
 		3242B606954147A9A0CC6100 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58438E194501415BB7C7A8DC /* Satoshi-Bold.otf */; };
-		B0090E0EEF2E49E6933B7043 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D9D8E7C7B846A48E4C5187 /* Satoshi-BoldItalic.otf */; };
-		8BAA05C83B7C4660907C409F /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBBC62C4E8FB437F8B34E37E /* Satoshi-Italic.otf */; };
+		36FB984FEDD84BC5B8F74143 /* BellIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 0224962C456C4561AB268C25 /* BellIcon.tsx */; };
+		3AFF9E393E854389B3B89C67 /* eyeOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = CB22FBEBF9E44A028EE674E1 /* eyeOn.svg */; };
+		45EA84EDE0AF427CA9276317 /* arrowLeft.svg in Resources */ = {isa = PBXBuildFile; fileRef = CB4BD1CE0781492B93712E1C /* arrowLeft.svg */; };
+		473C70A5E772416F907AD802 /* heartFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8E3AB7963DF448A4914F23D4 /* heartFill.svg */; };
+		504EC51B88424FDF86EE07A4 /* camera.svg in Resources */ = {isa = PBXBuildFile; fileRef = 85C5ED1179A7413BBE679FFF /* camera.svg */; };
+		54B6620E1BA8478890ADD817 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1DFB024B8362490F978AE919 /* Satoshi-Black.otf */; };
 		58672A2376F44F658FC068DC /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E791F86FDEB4D19A69E36B2 /* Satoshi-Light.otf */; };
 		5B55C12D88B44886B9652EE0 /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA3751AC401C430EB6C053C0 /* Satoshi-LightItalic.otf */; };
-		8041541C46F7416F9E20ACA4 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1527193F41F471CA4A92209 /* Satoshi-Medium.otf */; };
-		0B10A000026344EFA5374E22 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E91CDCD94244FE591562D7D /* Satoshi-MediumItalic.otf */; };
-		69B20CFA8A7A4E33B788D1EF /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09D792B002F34F2CA896C9BD /* Satoshi-Regular.otf */; };
-		45EA84EDE0AF427CA9276317 /* arrowLeft.svg in Resources */ = {isa = PBXBuildFile; fileRef = CB4BD1CE0781492B93712E1C /* arrowLeft.svg */; };
-		AA55162A1CFA43A7A44410AB /* ArrowLeftIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = EB3BC7E4BF804CD5BECFA46D /* ArrowLeftIcon.tsx */; };
-		8591E5389ECD4C88B9C067B9 /* arrowRight.svg in Resources */ = {isa = PBXBuildFile; fileRef = C63B033CF11248A9A702D34C /* arrowRight.svg */; };
-		237D3FA16A584D3A9CD16910 /* ArrowRightIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = D4D5A33F76BC45D4BC051225 /* ArrowRightIcon.tsx */; };
-		20696BE59D614B479084B53C /* bell.svg in Resources */ = {isa = PBXBuildFile; fileRef = A36A2A90725946DBA220BB1C /* bell.svg */; };
-		36FB984FEDD84BC5B8F74143 /* BellIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 0224962C456C4561AB268C25 /* BellIcon.tsx */; };
-		C96C0DCB536C4D1B9ECCBE9E /* bellOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3055F3718EF64F64812D102F /* bellOn.svg */; };
-		5F9E0A8086134CDABA5AE3BD /* BellOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 2DF7E1BE18CB4E9E8353CE8A /* BellOnIcon.tsx */; };
-		78C33A4A7F7D423E92E50DF0 /* bookmark.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5716AA6916ED470C90FEBD31 /* bookmark.svg */; };
-		F8D6370FB17A48A092C9F59E /* bookmarkFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 98E5C994E4FF4C09ADB06497 /* bookmarkFill.svg */; };
-		81A8A42FC725416AB4491F6E /* BookmarkFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 91F615DC86B1414F8D523436 /* BookmarkFillIcon.tsx */; };
-		BBA738B8C18E4F1AB379EC34 /* BookmarkIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 51BAB67BCF9D4A089CCAAC16 /* BookmarkIcon.tsx */; };
-		504EC51B88424FDF86EE07A4 /* camera.svg in Resources */ = {isa = PBXBuildFile; fileRef = 85C5ED1179A7413BBE679FFF /* camera.svg */; };
-		D3F8048FAFA14A919760E18A /* CameraIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 49AE2EB1A796440B883A53CA /* CameraIcon.tsx */; };
-		D1B5CA21C8514FFCBCD591E4 /* chat.svg in Resources */ = {isa = PBXBuildFile; fileRef = 06394DDD50A64F7F8BC373B0 /* chat.svg */; };
-		7E386A2F682E48B8845EBD4C /* ChatIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3EB30F97DA2F44059A8A39FD /* ChatIcon.tsx */; };
-		B6B72D319539473A9A1DF249 /* chatOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF4DD1086942F5AA8CE9CD /* chatOn.svg */; };
-		1002A66432F8442F87E4FECB /* ChatOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = FD434951BB504026A8FCC037 /* ChatOnIcon.tsx */; };
-		0BA9E17A62874ADE99CD9CBC /* check.svg in Resources */ = {isa = PBXBuildFile; fileRef = F689CA0D9DCE4D7BB47F565F /* check.svg */; };
-		6343A3F39F3549D99785424D /* CheckIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 8B5445AC5840466FB75222ED /* CheckIcon.tsx */; };
-		6705529EB721433897E9B6F7 /* chevronRight.svg in Resources */ = {isa = PBXBuildFile; fileRef = 128307053C3A4FA68D8CAB24 /* chevronRight.svg */; };
-		9D6520AAE77243F6AC19AA9D /* ChevronRightIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 94786B1E1856436189D423C3 /* ChevronRightIcon.tsx */; };
-		BAFB27943B854A8C80F1B1BF /* comment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 17A7A0D5488342FAA91DD413 /* comment.svg */; };
-		CE6B1792B60E4490AF4653CF /* CommentIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = C64D7EF3C4A74BF09FFE811C /* CommentIcon.tsx */; };
-		EC8178C9734C4DE89BE72D2C /* eyeOff.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6EBDE63030C24B7186EB679F /* eyeOff.svg */; };
-		BACA04B8A02F45FC94D71E71 /* EyeOffIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 27E4857353AF4A339DCFDA37 /* EyeOffIcon.tsx */; };
-		3AFF9E393E854389B3B89C67 /* eyeOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = CB22FBEBF9E44A028EE674E1 /* eyeOn.svg */; };
-		111CF25C8B9542729B4327F2 /* EyeOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = BBBB5F336C4142A693F91225 /* EyeOnIcon.tsx */; };
-		0109936577944A27B93521BE /* flashOff.svg in Resources */ = {isa = PBXBuildFile; fileRef = 52188318FDDD4678A92121B9 /* flashOff.svg */; };
-		682FB3FD072045D39A93EFD6 /* FlashOffIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = D15430FF45104069A06F63D1 /* FlashOffIcon.tsx */; };
-		F414E9C2ECB84B0DA5E80A52 /* flashOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = 01EBA279786E4FC6921897A4 /* flashOn.svg */; };
-		ADA26E50373D4CFF9543E47F /* FlashOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 767D366ADD8D4051B0B12EEA /* FlashOnIcon.tsx */; };
-		20B52AD7ABB1450DA6675BE3 /* heart.svg in Resources */ = {isa = PBXBuildFile; fileRef = A818E9A189F340CE9AFE23D4 /* heart.svg */; };
-		473C70A5E772416F907AD802 /* heartFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8E3AB7963DF448A4914F23D4 /* heartFill.svg */; };
-		68CB80293A7C40D1885FD634 /* HeartFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = B284CE70FF0C4C07929D9A64 /* HeartFillIcon.tsx */; };
-		DFC66D19B7A94861A4787478 /* HeartIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 522C07EBC7A245FDBFD64B86 /* HeartIcon.tsx */; };
-		13DE480FF11E4F8B96A759A5 /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 37C28F14502A4FE3ACFA7459 /* home.svg */; };
-		F40E79B0B988437AB6D21927 /* homeFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = C67052396A564C85BA04E4CA /* homeFill.svg */; };
-		C8DC2194D69544798E11F812 /* HomeFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 89122D7F97FC409AB87A13A2 /* HomeFillIcon.tsx */; };
-		FDD48DF21A2D4CA381E0F5B2 /* HomeIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = DB017165D09E41A686149746 /* HomeIcon.tsx */; };
-		AEFEC1B3CAC24CDD9A176F58 /* message.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB5BFEA2D74628B038A756 /* message.svg */; };
-		BB97685F28354CCA83A511DB /* MessageIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 22C48BE09D314C849DA2CF80 /* MessageIcon.tsx */; };
-		67A74B2C208045F2B8A7FB70 /* newPost.svg in Resources */ = {isa = PBXBuildFile; fileRef = B8B7ED4568284F1C89A56214 /* newPost.svg */; };
-		6523ED82534C47A5A0B4321F /* NewPostIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = FA068B81F9704C51B7C82EE6 /* NewPostIcon.tsx */; };
 		5F4677A2AC604CDFBF6FB47C /* profile.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4E88609A062047BD936A6C11 /* profile.svg */; };
-		917CC18317DC4986B4770168 /* profileFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD6070330546778998BEAA /* profileFill.svg */; };
-		8DF7990113D5446D85029D37 /* ProfileFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 72CC1B3E57274027B0A8CBAC /* ProfileFillIcon.tsx */; };
-		7D16973771404CDB90156528 /* ProfileIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = E21E7EAE8F2049D8B8BA97E6 /* ProfileIcon.tsx */; };
+		5F9E0A8086134CDABA5AE3BD /* BellOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 2DF7E1BE18CB4E9E8353CE8A /* BellOnIcon.tsx */; };
+		6343A3F39F3549D99785424D /* CheckIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 8B5445AC5840466FB75222ED /* CheckIcon.tsx */; };
+		6523ED82534C47A5A0B4321F /* NewPostIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = FA068B81F9704C51B7C82EE6 /* NewPostIcon.tsx */; };
+		6705529EB721433897E9B6F7 /* chevronRight.svg in Resources */ = {isa = PBXBuildFile; fileRef = 128307053C3A4FA68D8CAB24 /* chevronRight.svg */; };
+		67A74B2C208045F2B8A7FB70 /* newPost.svg in Resources */ = {isa = PBXBuildFile; fileRef = B8B7ED4568284F1C89A56214 /* newPost.svg */; };
+		682FB3FD072045D39A93EFD6 /* FlashOffIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = D15430FF45104069A06F63D1 /* FlashOffIcon.tsx */; };
+		68CB80293A7C40D1885FD634 /* HeartFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = B284CE70FF0C4C07929D9A64 /* HeartFillIcon.tsx */; };
+		69B20CFA8A7A4E33B788D1EF /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09D792B002F34F2CA896C9BD /* Satoshi-Regular.otf */; };
+		7699B88040F8A987B510C191 /* libPods-NubbleApp-NubbleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NubbleApp-NubbleAppTests.a */; };
+		78C33A4A7F7D423E92E50DF0 /* bookmark.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5716AA6916ED470C90FEBD31 /* bookmark.svg */; };
 		7C5603C222BF495D84F8A9C6 /* search.svg in Resources */ = {isa = PBXBuildFile; fileRef = 190C999765A04C68BCF67AD2 /* search.svg */; };
+		7D16973771404CDB90156528 /* ProfileIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = E21E7EAE8F2049D8B8BA97E6 /* ProfileIcon.tsx */; };
+		7E386A2F682E48B8845EBD4C /* ChatIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3EB30F97DA2F44059A8A39FD /* ChatIcon.tsx */; };
+		8041541C46F7416F9E20ACA4 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1527193F41F471CA4A92209 /* Satoshi-Medium.otf */; };
+		81A8A42FC725416AB4491F6E /* BookmarkFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 91F615DC86B1414F8D523436 /* BookmarkFillIcon.tsx */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8362A590003E4A27A94C5200 /* SearchIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 5C9FA712776B4EE5A6268A26 /* SearchIcon.tsx */; };
-		FD5C8E4B0D574FD89639E119 /* settings.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E2D088BB24519BCE06FAA /* settings.svg */; };
-		F39D43672A7245999E45ED77 /* SettingsIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = CB156D016589459188308D7F /* SettingsIcon.tsx */; };
-		F8BDFEF6A3804B6A81ED5BEB /* trash.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7CEAC64814E6195ECDC39 /* trash.svg */; };
+		8591E5389ECD4C88B9C067B9 /* arrowRight.svg in Resources */ = {isa = PBXBuildFile; fileRef = C63B033CF11248A9A702D34C /* arrowRight.svg */; };
+		8BAA05C83B7C4660907C409F /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBBC62C4E8FB437F8B34E37E /* Satoshi-Italic.otf */; };
+		8DF7990113D5446D85029D37 /* ProfileFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 72CC1B3E57274027B0A8CBAC /* ProfileFillIcon.tsx */; };
+		917CC18317DC4986B4770168 /* profileFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD6070330546778998BEAA /* profileFill.svg */; };
+		9D6520AAE77243F6AC19AA9D /* ChevronRightIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 94786B1E1856436189D423C3 /* ChevronRightIcon.tsx */; };
+		A9E29DCCFF854162A53F088A /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECA0D778F2494B798FF30854 /* Satoshi-BlackItalic.otf */; };
+		AA55162A1CFA43A7A44410AB /* ArrowLeftIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = EB3BC7E4BF804CD5BECFA46D /* ArrowLeftIcon.tsx */; };
+		ADA26E50373D4CFF9543E47F /* FlashOnIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 767D366ADD8D4051B0B12EEA /* FlashOnIcon.tsx */; };
+		AEFEC1B3CAC24CDD9A176F58 /* message.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB5BFEA2D74628B038A756 /* message.svg */; };
+		B0090E0EEF2E49E6933B7043 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6D9D8E7C7B846A48E4C5187 /* Satoshi-BoldItalic.otf */; };
 		B540A2DD8802493D8F5BC808 /* TrashIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = C8237D7DEDCB492D87E8AF76 /* TrashIcon.tsx */; };
+		B6B72D319539473A9A1DF249 /* chatOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF4DD1086942F5AA8CE9CD /* chatOn.svg */; };
+		BACA04B8A02F45FC94D71E71 /* EyeOffIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 27E4857353AF4A339DCFDA37 /* EyeOffIcon.tsx */; };
+		BAFB27943B854A8C80F1B1BF /* comment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 17A7A0D5488342FAA91DD413 /* comment.svg */; };
+		BB97685F28354CCA83A511DB /* MessageIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 22C48BE09D314C849DA2CF80 /* MessageIcon.tsx */; };
+		BBA738B8C18E4F1AB379EC34 /* BookmarkIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 51BAB67BCF9D4A089CCAAC16 /* BookmarkIcon.tsx */; };
+		C8DC2194D69544798E11F812 /* HomeFillIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 89122D7F97FC409AB87A13A2 /* HomeFillIcon.tsx */; };
+		C96C0DCB536C4D1B9ECCBE9E /* bellOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3055F3718EF64F64812D102F /* bellOn.svg */; };
+		CE6B1792B60E4490AF4653CF /* CommentIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = C64D7EF3C4A74BF09FFE811C /* CommentIcon.tsx */; };
+		D1B5CA21C8514FFCBCD591E4 /* chat.svg in Resources */ = {isa = PBXBuildFile; fileRef = 06394DDD50A64F7F8BC373B0 /* chat.svg */; };
+		D3F8048FAFA14A919760E18A /* CameraIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 49AE2EB1A796440B883A53CA /* CameraIcon.tsx */; };
+		DFC66D19B7A94861A4787478 /* HeartIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 522C07EBC7A245FDBFD64B86 /* HeartIcon.tsx */; };
+		EC8178C9734C4DE89BE72D2C /* eyeOff.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6EBDE63030C24B7186EB679F /* eyeOff.svg */; };
+		F39D43672A7245999E45ED77 /* SettingsIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = CB156D016589459188308D7F /* SettingsIcon.tsx */; };
+		F40E79B0B988437AB6D21927 /* homeFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = C67052396A564C85BA04E4CA /* homeFill.svg */; };
+		F414E9C2ECB84B0DA5E80A52 /* flashOn.svg in Resources */ = {isa = PBXBuildFile; fileRef = 01EBA279786E4FC6921897A4 /* flashOn.svg */; };
+		F8BDFEF6A3804B6A81ED5BEB /* trash.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7CEAC64814E6195ECDC39 /* trash.svg */; };
+		F8D6370FB17A48A092C9F59E /* bookmarkFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 98E5C994E4FF4C09ADB06497 /* bookmarkFill.svg */; };
+		FD5C8E4B0D574FD89639E119 /* settings.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E2D088BB24519BCE06FAA /* settings.svg */; };
+		FDD48DF21A2D4CA381E0F5B2 /* HomeIcon.tsx in Resources */ = {isa = PBXBuildFile; fileRef = DB017165D09E41A686149746 /* HomeIcon.tsx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,84 +94,84 @@
 		00E356EE1AD99517003FC87E /* NubbleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubbleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* NubbleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NubbleAppTests.m; sourceTree = "<group>"; };
+		01EBA279786E4FC6921897A4 /* flashOn.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = flashOn.svg; path = ../src/assets/icons/flashOn.svg; sourceTree = "<group>"; };
+		0224962C456C4561AB268C25 /* BellIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BellIcon.tsx; path = ../src/assets/icons/BellIcon.tsx; sourceTree = "<group>"; };
+		06394DDD50A64F7F8BC373B0 /* chat.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chat.svg; path = ../src/assets/icons/chat.svg; sourceTree = "<group>"; };
+		09D792B002F34F2CA896C9BD /* Satoshi-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Regular.otf"; path = "../src/assets/fonts/Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		0CDF4DD1086942F5AA8CE9CD /* chatOn.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chatOn.svg; path = ../src/assets/icons/chatOn.svg; sourceTree = "<group>"; };
+		128307053C3A4FA68D8CAB24 /* chevronRight.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chevronRight.svg; path = ../src/assets/icons/chevronRight.svg; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* NubbleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NubbleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NubbleApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = NubbleApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NubbleApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NubbleApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NubbleApp/main.m; sourceTree = "<group>"; };
+		17A7A0D5488342FAA91DD413 /* comment.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = comment.svg; path = ../src/assets/icons/comment.svg; sourceTree = "<group>"; };
+		190C999765A04C68BCF67AD2 /* search.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.svg; path = ../src/assets/icons/search.svg; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-NubbleApp-NubbleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NubbleApp-NubbleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFB024B8362490F978AE919 /* Satoshi-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Black.otf"; path = "../src/assets/fonts/Satoshi-Black.otf"; sourceTree = "<group>"; };
+		22C48BE09D314C849DA2CF80 /* MessageIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MessageIcon.tsx; path = ../src/assets/icons/MessageIcon.tsx; sourceTree = "<group>"; };
+		27E4857353AF4A339DCFDA37 /* EyeOffIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EyeOffIcon.tsx; path = ../src/assets/icons/EyeOffIcon.tsx; sourceTree = "<group>"; };
+		2DF7E1BE18CB4E9E8353CE8A /* BellOnIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BellOnIcon.tsx; path = ../src/assets/icons/BellOnIcon.tsx; sourceTree = "<group>"; };
+		3055F3718EF64F64812D102F /* bellOn.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bellOn.svg; path = ../src/assets/icons/bellOn.svg; sourceTree = "<group>"; };
+		37C28F14502A4FE3ACFA7459 /* home.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = home.svg; path = ../src/assets/icons/home.svg; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-NubbleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubbleApp.debug.xcconfig"; path = "Target Support Files/Pods-NubbleApp/Pods-NubbleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3EB30F97DA2F44059A8A39FD /* ChatIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ChatIcon.tsx; path = ../src/assets/icons/ChatIcon.tsx; sourceTree = "<group>"; };
+		49AE2EB1A796440B883A53CA /* CameraIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CameraIcon.tsx; path = ../src/assets/icons/CameraIcon.tsx; sourceTree = "<group>"; };
+		4E88609A062047BD936A6C11 /* profile.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = profile.svg; path = ../src/assets/icons/profile.svg; sourceTree = "<group>"; };
+		51BAB67BCF9D4A089CCAAC16 /* BookmarkIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BookmarkIcon.tsx; path = ../src/assets/icons/BookmarkIcon.tsx; sourceTree = "<group>"; };
+		52188318FDDD4678A92121B9 /* flashOff.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = flashOff.svg; path = ../src/assets/icons/flashOff.svg; sourceTree = "<group>"; };
+		522C07EBC7A245FDBFD64B86 /* HeartIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = HeartIcon.tsx; path = ../src/assets/icons/HeartIcon.tsx; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-NubbleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubbleApp.release.xcconfig"; path = "Target Support Files/Pods-NubbleApp/Pods-NubbleApp.release.xcconfig"; sourceTree = "<group>"; };
+		5716AA6916ED470C90FEBD31 /* bookmark.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bookmark.svg; path = ../src/assets/icons/bookmark.svg; sourceTree = "<group>"; };
+		58438E194501415BB7C7A8DC /* Satoshi-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Bold.otf"; path = "../src/assets/fonts/Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		5AC7CEAC64814E6195ECDC39 /* trash.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = trash.svg; path = ../src/assets/icons/trash.svg; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-NubbleApp-NubbleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubbleApp-NubbleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NubbleApp-NubbleAppTests/Pods-NubbleApp-NubbleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3E2D088BB24519BCE06FAA /* settings.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = settings.svg; path = ../src/assets/icons/settings.svg; sourceTree = "<group>"; };
+		5C9FA712776B4EE5A6268A26 /* SearchIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SearchIcon.tsx; path = ../src/assets/icons/SearchIcon.tsx; sourceTree = "<group>"; };
+		5CBB5BFEA2D74628B038A756 /* message.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = message.svg; path = ../src/assets/icons/message.svg; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-NubbleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NubbleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E791F86FDEB4D19A69E36B2 /* Satoshi-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Light.otf"; path = "../src/assets/fonts/Satoshi-Light.otf"; sourceTree = "<group>"; };
+		5E91CDCD94244FE591562D7D /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-MediumItalic.otf"; path = "../src/assets/fonts/Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		5FCD6070330546778998BEAA /* profileFill.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = profileFill.svg; path = ../src/assets/icons/profileFill.svg; sourceTree = "<group>"; };
+		6EBDE63030C24B7186EB679F /* eyeOff.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = eyeOff.svg; path = ../src/assets/icons/eyeOff.svg; sourceTree = "<group>"; };
+		72CC1B3E57274027B0A8CBAC /* ProfileFillIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ProfileFillIcon.tsx; path = ../src/assets/icons/ProfileFillIcon.tsx; sourceTree = "<group>"; };
+		767D366ADD8D4051B0B12EEA /* FlashOnIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FlashOnIcon.tsx; path = ../src/assets/icons/FlashOnIcon.tsx; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NubbleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C5ED1179A7413BBE679FFF /* camera.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = camera.svg; path = ../src/assets/icons/camera.svg; sourceTree = "<group>"; };
+		89122D7F97FC409AB87A13A2 /* HomeFillIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = HomeFillIcon.tsx; path = ../src/assets/icons/HomeFillIcon.tsx; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-NubbleApp-NubbleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubbleApp-NubbleAppTests.release.xcconfig"; path = "Target Support Files/Pods-NubbleApp-NubbleAppTests/Pods-NubbleApp-NubbleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B5445AC5840466FB75222ED /* CheckIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CheckIcon.tsx; path = ../src/assets/icons/CheckIcon.tsx; sourceTree = "<group>"; };
+		8E3AB7963DF448A4914F23D4 /* heartFill.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = heartFill.svg; path = ../src/assets/icons/heartFill.svg; sourceTree = "<group>"; };
+		91F615DC86B1414F8D523436 /* BookmarkFillIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BookmarkFillIcon.tsx; path = ../src/assets/icons/BookmarkFillIcon.tsx; sourceTree = "<group>"; };
+		94786B1E1856436189D423C3 /* ChevronRightIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ChevronRightIcon.tsx; path = ../src/assets/icons/ChevronRightIcon.tsx; sourceTree = "<group>"; };
+		98E5C994E4FF4C09ADB06497 /* bookmarkFill.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bookmarkFill.svg; path = ../src/assets/icons/bookmarkFill.svg; sourceTree = "<group>"; };
+		A36A2A90725946DBA220BB1C /* bell.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bell.svg; path = ../src/assets/icons/bell.svg; sourceTree = "<group>"; };
+		A6D9D8E7C7B846A48E4C5187 /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-BoldItalic.otf"; path = "../src/assets/fonts/Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		A818E9A189F340CE9AFE23D4 /* heart.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = heart.svg; path = ../src/assets/icons/heart.svg; sourceTree = "<group>"; };
+		B284CE70FF0C4C07929D9A64 /* HeartFillIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = HeartFillIcon.tsx; path = ../src/assets/icons/HeartFillIcon.tsx; sourceTree = "<group>"; };
+		B8B7ED4568284F1C89A56214 /* newPost.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = newPost.svg; path = ../src/assets/icons/newPost.svg; sourceTree = "<group>"; };
+		BBBB5F336C4142A693F91225 /* EyeOnIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EyeOnIcon.tsx; path = ../src/assets/icons/EyeOnIcon.tsx; sourceTree = "<group>"; };
+		C63B033CF11248A9A702D34C /* arrowRight.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrowRight.svg; path = ../src/assets/icons/arrowRight.svg; sourceTree = "<group>"; };
+		C64D7EF3C4A74BF09FFE811C /* CommentIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CommentIcon.tsx; path = ../src/assets/icons/CommentIcon.tsx; sourceTree = "<group>"; };
+		C67052396A564C85BA04E4CA /* homeFill.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = homeFill.svg; path = ../src/assets/icons/homeFill.svg; sourceTree = "<group>"; };
+		C8237D7DEDCB492D87E8AF76 /* TrashIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = TrashIcon.tsx; path = ../src/assets/icons/TrashIcon.tsx; sourceTree = "<group>"; };
+		CB156D016589459188308D7F /* SettingsIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SettingsIcon.tsx; path = ../src/assets/icons/SettingsIcon.tsx; sourceTree = "<group>"; };
+		CB22FBEBF9E44A028EE674E1 /* eyeOn.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = eyeOn.svg; path = ../src/assets/icons/eyeOn.svg; sourceTree = "<group>"; };
+		CB4BD1CE0781492B93712E1C /* arrowLeft.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrowLeft.svg; path = ../src/assets/icons/arrowLeft.svg; sourceTree = "<group>"; };
+		CBBC62C4E8FB437F8B34E37E /* Satoshi-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Italic.otf"; path = "../src/assets/fonts/Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		D15430FF45104069A06F63D1 /* FlashOffIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FlashOffIcon.tsx; path = ../src/assets/icons/FlashOffIcon.tsx; sourceTree = "<group>"; };
+		D4D5A33F76BC45D4BC051225 /* ArrowRightIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ArrowRightIcon.tsx; path = ../src/assets/icons/ArrowRightIcon.tsx; sourceTree = "<group>"; };
+		DA3751AC401C430EB6C053C0 /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-LightItalic.otf"; path = "../src/assets/fonts/Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		DB017165D09E41A686149746 /* HomeIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = HomeIcon.tsx; path = ../src/assets/icons/HomeIcon.tsx; sourceTree = "<group>"; };
+		E21E7EAE8F2049D8B8BA97E6 /* ProfileIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ProfileIcon.tsx; path = ../src/assets/icons/ProfileIcon.tsx; sourceTree = "<group>"; };
+		EB3BC7E4BF804CD5BECFA46D /* ArrowLeftIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ArrowLeftIcon.tsx; path = ../src/assets/icons/ArrowLeftIcon.tsx; sourceTree = "<group>"; };
+		ECA0D778F2494B798FF30854 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-BlackItalic.otf"; path = "../src/assets/fonts/Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		1DFB024B8362490F978AE919 /* Satoshi-Black.otf */ = {isa = PBXFileReference; name = "Satoshi-Black.otf"; path = "../src/assets/fonts/Satoshi-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ECA0D778F2494B798FF30854 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-BlackItalic.otf"; path = "../src/assets/fonts/Satoshi-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		58438E194501415BB7C7A8DC /* Satoshi-Bold.otf */ = {isa = PBXFileReference; name = "Satoshi-Bold.otf"; path = "../src/assets/fonts/Satoshi-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A6D9D8E7C7B846A48E4C5187 /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-BoldItalic.otf"; path = "../src/assets/fonts/Satoshi-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBBC62C4E8FB437F8B34E37E /* Satoshi-Italic.otf */ = {isa = PBXFileReference; name = "Satoshi-Italic.otf"; path = "../src/assets/fonts/Satoshi-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5E791F86FDEB4D19A69E36B2 /* Satoshi-Light.otf */ = {isa = PBXFileReference; name = "Satoshi-Light.otf"; path = "../src/assets/fonts/Satoshi-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DA3751AC401C430EB6C053C0 /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-LightItalic.otf"; path = "../src/assets/fonts/Satoshi-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F1527193F41F471CA4A92209 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; name = "Satoshi-Medium.otf"; path = "../src/assets/fonts/Satoshi-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5E91CDCD94244FE591562D7D /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-MediumItalic.otf"; path = "../src/assets/fonts/Satoshi-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		09D792B002F34F2CA896C9BD /* Satoshi-Regular.otf */ = {isa = PBXFileReference; name = "Satoshi-Regular.otf"; path = "../src/assets/fonts/Satoshi-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB4BD1CE0781492B93712E1C /* arrowLeft.svg */ = {isa = PBXFileReference; name = "arrowLeft.svg"; path = "../src/assets/icons/arrowLeft.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EB3BC7E4BF804CD5BECFA46D /* ArrowLeftIcon.tsx */ = {isa = PBXFileReference; name = "ArrowLeftIcon.tsx"; path = "../src/assets/icons/ArrowLeftIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C63B033CF11248A9A702D34C /* arrowRight.svg */ = {isa = PBXFileReference; name = "arrowRight.svg"; path = "../src/assets/icons/arrowRight.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D4D5A33F76BC45D4BC051225 /* ArrowRightIcon.tsx */ = {isa = PBXFileReference; name = "ArrowRightIcon.tsx"; path = "../src/assets/icons/ArrowRightIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A36A2A90725946DBA220BB1C /* bell.svg */ = {isa = PBXFileReference; name = "bell.svg"; path = "../src/assets/icons/bell.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0224962C456C4561AB268C25 /* BellIcon.tsx */ = {isa = PBXFileReference; name = "BellIcon.tsx"; path = "../src/assets/icons/BellIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3055F3718EF64F64812D102F /* bellOn.svg */ = {isa = PBXFileReference; name = "bellOn.svg"; path = "../src/assets/icons/bellOn.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2DF7E1BE18CB4E9E8353CE8A /* BellOnIcon.tsx */ = {isa = PBXFileReference; name = "BellOnIcon.tsx"; path = "../src/assets/icons/BellOnIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5716AA6916ED470C90FEBD31 /* bookmark.svg */ = {isa = PBXFileReference; name = "bookmark.svg"; path = "../src/assets/icons/bookmark.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		98E5C994E4FF4C09ADB06497 /* bookmarkFill.svg */ = {isa = PBXFileReference; name = "bookmarkFill.svg"; path = "../src/assets/icons/bookmarkFill.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		91F615DC86B1414F8D523436 /* BookmarkFillIcon.tsx */ = {isa = PBXFileReference; name = "BookmarkFillIcon.tsx"; path = "../src/assets/icons/BookmarkFillIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		51BAB67BCF9D4A089CCAAC16 /* BookmarkIcon.tsx */ = {isa = PBXFileReference; name = "BookmarkIcon.tsx"; path = "../src/assets/icons/BookmarkIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		85C5ED1179A7413BBE679FFF /* camera.svg */ = {isa = PBXFileReference; name = "camera.svg"; path = "../src/assets/icons/camera.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		49AE2EB1A796440B883A53CA /* CameraIcon.tsx */ = {isa = PBXFileReference; name = "CameraIcon.tsx"; path = "../src/assets/icons/CameraIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		06394DDD50A64F7F8BC373B0 /* chat.svg */ = {isa = PBXFileReference; name = "chat.svg"; path = "../src/assets/icons/chat.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3EB30F97DA2F44059A8A39FD /* ChatIcon.tsx */ = {isa = PBXFileReference; name = "ChatIcon.tsx"; path = "../src/assets/icons/ChatIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0CDF4DD1086942F5AA8CE9CD /* chatOn.svg */ = {isa = PBXFileReference; name = "chatOn.svg"; path = "../src/assets/icons/chatOn.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FD434951BB504026A8FCC037 /* ChatOnIcon.tsx */ = {isa = PBXFileReference; name = "ChatOnIcon.tsx"; path = "../src/assets/icons/ChatOnIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F689CA0D9DCE4D7BB47F565F /* check.svg */ = {isa = PBXFileReference; name = "check.svg"; path = "../src/assets/icons/check.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8B5445AC5840466FB75222ED /* CheckIcon.tsx */ = {isa = PBXFileReference; name = "CheckIcon.tsx"; path = "../src/assets/icons/CheckIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		128307053C3A4FA68D8CAB24 /* chevronRight.svg */ = {isa = PBXFileReference; name = "chevronRight.svg"; path = "../src/assets/icons/chevronRight.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		94786B1E1856436189D423C3 /* ChevronRightIcon.tsx */ = {isa = PBXFileReference; name = "ChevronRightIcon.tsx"; path = "../src/assets/icons/ChevronRightIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		17A7A0D5488342FAA91DD413 /* comment.svg */ = {isa = PBXFileReference; name = "comment.svg"; path = "../src/assets/icons/comment.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C64D7EF3C4A74BF09FFE811C /* CommentIcon.tsx */ = {isa = PBXFileReference; name = "CommentIcon.tsx"; path = "../src/assets/icons/CommentIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6EBDE63030C24B7186EB679F /* eyeOff.svg */ = {isa = PBXFileReference; name = "eyeOff.svg"; path = "../src/assets/icons/eyeOff.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		27E4857353AF4A339DCFDA37 /* EyeOffIcon.tsx */ = {isa = PBXFileReference; name = "EyeOffIcon.tsx"; path = "../src/assets/icons/EyeOffIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB22FBEBF9E44A028EE674E1 /* eyeOn.svg */ = {isa = PBXFileReference; name = "eyeOn.svg"; path = "../src/assets/icons/eyeOn.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BBBB5F336C4142A693F91225 /* EyeOnIcon.tsx */ = {isa = PBXFileReference; name = "EyeOnIcon.tsx"; path = "../src/assets/icons/EyeOnIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		52188318FDDD4678A92121B9 /* flashOff.svg */ = {isa = PBXFileReference; name = "flashOff.svg"; path = "../src/assets/icons/flashOff.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D15430FF45104069A06F63D1 /* FlashOffIcon.tsx */ = {isa = PBXFileReference; name = "FlashOffIcon.tsx"; path = "../src/assets/icons/FlashOffIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		01EBA279786E4FC6921897A4 /* flashOn.svg */ = {isa = PBXFileReference; name = "flashOn.svg"; path = "../src/assets/icons/flashOn.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		767D366ADD8D4051B0B12EEA /* FlashOnIcon.tsx */ = {isa = PBXFileReference; name = "FlashOnIcon.tsx"; path = "../src/assets/icons/FlashOnIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A818E9A189F340CE9AFE23D4 /* heart.svg */ = {isa = PBXFileReference; name = "heart.svg"; path = "../src/assets/icons/heart.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8E3AB7963DF448A4914F23D4 /* heartFill.svg */ = {isa = PBXFileReference; name = "heartFill.svg"; path = "../src/assets/icons/heartFill.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B284CE70FF0C4C07929D9A64 /* HeartFillIcon.tsx */ = {isa = PBXFileReference; name = "HeartFillIcon.tsx"; path = "../src/assets/icons/HeartFillIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		522C07EBC7A245FDBFD64B86 /* HeartIcon.tsx */ = {isa = PBXFileReference; name = "HeartIcon.tsx"; path = "../src/assets/icons/HeartIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		37C28F14502A4FE3ACFA7459 /* home.svg */ = {isa = PBXFileReference; name = "home.svg"; path = "../src/assets/icons/home.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C67052396A564C85BA04E4CA /* homeFill.svg */ = {isa = PBXFileReference; name = "homeFill.svg"; path = "../src/assets/icons/homeFill.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		89122D7F97FC409AB87A13A2 /* HomeFillIcon.tsx */ = {isa = PBXFileReference; name = "HomeFillIcon.tsx"; path = "../src/assets/icons/HomeFillIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DB017165D09E41A686149746 /* HomeIcon.tsx */ = {isa = PBXFileReference; name = "HomeIcon.tsx"; path = "../src/assets/icons/HomeIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5CBB5BFEA2D74628B038A756 /* message.svg */ = {isa = PBXFileReference; name = "message.svg"; path = "../src/assets/icons/message.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		22C48BE09D314C849DA2CF80 /* MessageIcon.tsx */ = {isa = PBXFileReference; name = "MessageIcon.tsx"; path = "../src/assets/icons/MessageIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B8B7ED4568284F1C89A56214 /* newPost.svg */ = {isa = PBXFileReference; name = "newPost.svg"; path = "../src/assets/icons/newPost.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FA068B81F9704C51B7C82EE6 /* NewPostIcon.tsx */ = {isa = PBXFileReference; name = "NewPostIcon.tsx"; path = "../src/assets/icons/NewPostIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4E88609A062047BD936A6C11 /* profile.svg */ = {isa = PBXFileReference; name = "profile.svg"; path = "../src/assets/icons/profile.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5FCD6070330546778998BEAA /* profileFill.svg */ = {isa = PBXFileReference; name = "profileFill.svg"; path = "../src/assets/icons/profileFill.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		72CC1B3E57274027B0A8CBAC /* ProfileFillIcon.tsx */ = {isa = PBXFileReference; name = "ProfileFillIcon.tsx"; path = "../src/assets/icons/ProfileFillIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E21E7EAE8F2049D8B8BA97E6 /* ProfileIcon.tsx */ = {isa = PBXFileReference; name = "ProfileIcon.tsx"; path = "../src/assets/icons/ProfileIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		190C999765A04C68BCF67AD2 /* search.svg */ = {isa = PBXFileReference; name = "search.svg"; path = "../src/assets/icons/search.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5C9FA712776B4EE5A6268A26 /* SearchIcon.tsx */ = {isa = PBXFileReference; name = "SearchIcon.tsx"; path = "../src/assets/icons/SearchIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5C3E2D088BB24519BCE06FAA /* settings.svg */ = {isa = PBXFileReference; name = "settings.svg"; path = "../src/assets/icons/settings.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB156D016589459188308D7F /* SettingsIcon.tsx */ = {isa = PBXFileReference; name = "SettingsIcon.tsx"; path = "../src/assets/icons/SettingsIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5AC7CEAC64814E6195ECDC39 /* trash.svg */ = {isa = PBXFileReference; name = "trash.svg"; path = "../src/assets/icons/trash.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C8237D7DEDCB492D87E8AF76 /* TrashIcon.tsx */ = {isa = PBXFileReference; name = "TrashIcon.tsx"; path = "../src/assets/icons/TrashIcon.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1527193F41F471CA4A92209 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Medium.otf"; path = "../src/assets/fonts/Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		F689CA0D9DCE4D7BB47F565F /* check.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = check.svg; path = ../src/assets/icons/check.svg; sourceTree = "<group>"; };
+		FA068B81F9704C51B7C82EE6 /* NewPostIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = NewPostIcon.tsx; path = ../src/assets/icons/NewPostIcon.tsx; sourceTree = "<group>"; };
+		FD434951BB504026A8FCC037 /* ChatOnIcon.tsx */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ChatOnIcon.tsx; path = ../src/assets/icons/ChatOnIcon.tsx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,19 +266,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-NubbleApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-NubbleApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-NubbleApp-NubbleAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-NubbleApp-NubbleAppTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		A9305697CE434EC18CD0D199 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				1DFB024B8362490F978AE919 /* Satoshi-Black.otf */,
 				ECA0D778F2494B798FF30854 /* Satoshi-BlackItalic.otf */,
@@ -346,8 +335,19 @@
 				C8237D7DEDCB492D87E8AF76 /* TrashIcon.tsx */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-NubbleApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-NubbleApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-NubbleApp-NubbleAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-NubbleApp-NubbleAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -809,7 +809,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -837,6 +837,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -844,7 +845,14 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -881,7 +889,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -901,6 +909,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -908,7 +917,14 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
