@@ -15,6 +15,10 @@ export function LoginsScreen({navigation}: ScreenProps) {
     navigation.navigate('SignUpScreen');
   }
 
+  function navigateToForgotPasswordScreen() {
+    navigation.navigate('ForgotPasswordScreen');
+  }
+
   return (
     <Screen>
       <Text marginBottom="s8" preset="headingLarge" bold>
@@ -34,7 +38,7 @@ export function LoginsScreen({navigation}: ScreenProps) {
         boxProps={{mt: 's10'}}
       />
       <TouchableOpacityBox
-        onPress={() => navigation.navigate('ForgotPasswordScreen')}>
+        onPress={navigateToForgotPasswordScreen}>
         <Text preset="paragraphSmall" bold mt="s10" color="primary">
           Esqueci minha senha
         </Text>
