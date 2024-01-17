@@ -46,6 +46,7 @@ boxProps,
         </Text>
         <Box {...$textInputContainer}>
           <RNTextInput
+            autoCapitalize='none'
             ref={inputRef}
             style={$textInputStyle}
             placeholderTextColor={colors.gray2}
