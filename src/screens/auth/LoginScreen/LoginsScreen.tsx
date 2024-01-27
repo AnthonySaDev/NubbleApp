@@ -1,11 +1,20 @@
 import React from 'react';
-import {useForm} from 'react-hook-form';
-import {NativeStackScreenProps} from '@react-navigation/native-stack';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { Text, Button, FormPasswordInput, TouchableOpacityBox, FormTextInput, Screen } from '@components';
-import { RootStackParamList } from '@routes';
-import { LoginSchema, loginSchema } from './LoginSchema';
 
+import {zodResolver} from '@hookform/resolvers/zod';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import {useForm} from 'react-hook-form';
+
+import {
+  Text,
+  Button,
+  FormPasswordInput,
+  TouchableOpacityBox,
+  FormTextInput,
+  Screen,
+} from '@components';
+import {RootStackParamList} from '@routes';
+
+import {LoginSchema, loginSchema} from './LoginSchema';
 
 type ScreenProps = NativeStackScreenProps<RootStackParamList, 'LoginScreen'>;
 
@@ -29,7 +38,7 @@ export function LoginsScreen({navigation}: ScreenProps) {
 
   function submitForm({email, password}: LoginSchema) {
     //TODO: implementar
-    
+    console.log(email, password);
   }
 
   return (

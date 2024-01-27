@@ -1,23 +1,29 @@
-import React from 'react'
-import { Controller, UseControllerProps, FieldValues } from 'react-hook-form'
-import { TextInput, TextInputProps } from '@components';
+import React from 'react';
 
+import {Controller, UseControllerProps, FieldValues} from 'react-hook-form';
 
-export function FormTextInput<FormType extends FieldValues>({control, name, rules, ...textInputProps}: TextInputProps & UseControllerProps<FormType>) {
+import {TextInput, TextInputProps} from '@components';
+
+export function FormTextInput<FormType extends FieldValues>({
+  control,
+  name,
+  rules,
+  ...textInputProps
+}: TextInputProps & UseControllerProps<FormType>) {
   return (
     <Controller
-    control={control}
-    name={name}
-    rules={rules}
-    render={({field, fieldState}) => (
-      <TextInput
-        {...textInputProps}
-        onChangeText={field.onChange}
-        errorMessage={fieldState.error?.message}
-        onBlur={field.onBlur}
-        value={field.value}
-      />
-    )}
-  />
-  )
+      control={control}
+      name={name}
+      rules={rules}
+      render={({field, fieldState}) => (
+        <TextInput
+          {...textInputProps}
+          onChangeText={field.onChange}
+          errorMessage={fieldState.error?.message}
+          onBlur={field.onBlur}
+          value={field.value}
+        />
+      )}
+    />
+  );
 }

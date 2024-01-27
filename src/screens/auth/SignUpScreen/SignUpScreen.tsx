@@ -1,15 +1,24 @@
 import React from 'react';
+
+import {zodResolver} from '@hookform/resolvers/zod';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {useForm} from 'react-hook-form';
-import {zodResolver} from '@hookform/resolvers/zod';
+
+import {
+  Button,
+  FormPasswordInput,
+  FormTextInput,
+  Screen,
+  Text,
+} from '@components';
+import {useResetNavigationSuccess} from '@hooks';
+import {RootStackParamList} from '@routes';
+
 import {SignUpSchema, signupSchema} from './signUpSchema';
-import { RootStackParamList } from '@routes';
-import { useResetNavigationSuccess } from '@hooks';
-import { Button, FormPasswordInput, FormTextInput, Screen, Text } from '@components';
 
 type ScreenProps = NativeStackScreenProps<RootStackParamList, 'SignUpScreen'>;
 
-export function SignUpScreen({navigation}: ScreenProps) {
+export function SignUpScreen({}: ScreenProps) {
   const {reset} = useResetNavigationSuccess();
 
   const {control, formState, handleSubmit} = useForm<SignUpSchema>({
@@ -25,14 +34,14 @@ export function SignUpScreen({navigation}: ScreenProps) {
 
   function submitForm(formvalues: SignUpSchema) {
     console.log(formvalues);
-    // reset({
-    //   title: 'Sua conta foi criada com sucesso!',
-    //   description: 'Agora é necessário fazer login na nossa plataforma',
-    //   icon: {
-    //     name: 'checkRound',
-    //     color: 'success',
-    //   },
-    // });
+    reset({
+      title: 'Sua conta foi criada com sucesso!',
+      description: 'Agora é necessário fazer login na nossa plataforma',
+      icon: {
+        name: 'checkRound',
+        color: 'success',
+      },
+    });
   }
 
   return (

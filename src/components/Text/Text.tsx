@@ -1,29 +1,54 @@
-import React from 'react'
-import { TextStyle } from 'react-native'
-import { createText } from '@shopify/restyle'
-import { Theme } from '@theme'
+import React from 'react';
+import {TextStyle} from 'react-native';
+
+import {createText} from '@shopify/restyle';
+
+import {Theme} from '@theme';
 
 const SRText = createText<Theme>();
 
-type SRTextProps = React.ComponentProps<typeof SRText>
+type SRTextProps = React.ComponentProps<typeof SRText>;
 
 interface TextProps extends SRTextProps {
-  preset?: TextVariants
-  bold?: boolean
-  italic?: boolean
-  semiBold?: boolean
+  preset?: TextVariants;
+  bold?: boolean;
+  italic?: boolean;
+  semiBold?: boolean;
 }
 
-export function Text({ children, style, bold, italic, semiBold, preset = 'paragraphMedium', ...sRTextProps }: TextProps) {
-
+export function Text({
+  children,
+  style,
+  bold,
+  italic,
+  semiBold,
+  preset = 'paragraphMedium',
+  ...sRTextProps
+}: TextProps) {
   const fontFamily = getFontFamily(preset, bold, italic, semiBold);
 
-  return <SRText color='backgroundContrast' style={[$fontSizes[preset], { fontFamily }, style]} {...sRTextProps}>{children}</SRText>
+  return (
+    <SRText
+      color="backgroundContrast"
+      style={[$fontSizes[preset], {fontFamily}, style]}
+      {...sRTextProps}>
+      {children}
+    </SRText>
+  );
 }
 
-function getFontFamily(preset: TextVariants, bold?: boolean, italic?: boolean, semiBold?: boolean) {
-  if (preset === 'headingLarge' || preset === 'headingMedium' || preset === 'headingSmall') {
-    italic ? $fontFamily.boldItalic : $fontFamily.bold
+function getFontFamily(
+  preset: TextVariants,
+  bold?: boolean,
+  italic?: boolean,
+  semiBold?: boolean,
+) {
+  if (
+    preset === 'headingLarge' ||
+    preset === 'headingMedium' ||
+    preset === 'headingSmall'
+  ) {
+    italic ? $fontFamily.boldItalic : $fontFamily.bold;
   }
   switch (true) {
     case bold && italic:
@@ -41,8 +66,15 @@ function getFontFamily(preset: TextVariants, bold?: boolean, italic?: boolean, s
   }
 }
 
-
-type TextVariants = 'headingLarge' | 'headingMedium' | 'headingSmall' | 'paragraphLarge' | 'paragraphMedium' | 'paragraphSmall' | 'paragraphCaption' | 'paragraphCaptionSmall';
+type TextVariants =
+  | 'headingLarge'
+  | 'headingMedium'
+  | 'headingSmall'
+  | 'paragraphLarge'
+  | 'paragraphMedium'
+  | 'paragraphSmall'
+  | 'paragraphCaption'
+  | 'paragraphCaptionSmall';
 
 export const $fontSizes: Record<TextVariants, TextStyle> = {
   headingLarge: {
@@ -58,7 +90,6 @@ export const $fontSizes: Record<TextVariants, TextStyle> = {
     lineHeight: 23.4,
   },
 
-
   paragraphLarge: {
     fontSize: 18,
     lineHeight: 25.2,
@@ -72,7 +103,6 @@ export const $fontSizes: Record<TextVariants, TextStyle> = {
     lineHeight: 19.6,
   },
 
-
   paragraphCaption: {
     fontSize: 12,
     lineHeight: 16.8,
@@ -81,7 +111,7 @@ export const $fontSizes: Record<TextVariants, TextStyle> = {
     fontSize: 10,
     lineHeight: 14,
   },
-}
+};
 
 export const $fontFamily = {
   black: 'Satoshi-Black',
@@ -94,4 +124,4 @@ export const $fontFamily = {
   medium: 'Satoshi-Medium',
   mediumItalic: 'Satoshi-MediumItalic',
   regular: 'Satoshi-Regular',
-}
+};

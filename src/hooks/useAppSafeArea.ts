@@ -1,4 +1,5 @@
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
+
 import {useAppTheme} from '@hooks';
 
 export function useAppSafArea() {
@@ -7,6 +8,6 @@ export function useAppSafArea() {
 
   return {
     top: Math.max(top, spacing.s20),
-    bottom: Math.max(bottom, spacing.s20)
+    bottom: Math.max(bottom, spacing.s20),
   };
 }
